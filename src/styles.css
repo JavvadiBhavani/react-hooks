@@ -1,0 +1,40 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  body {
+    background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_2164,w_3845,x_0,y_259/v1554918405/shape/mentalfloss/94735-istock-863607936.jpg?itok=1Qguuz21");
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  li{
+    text-align: left;
+    font-size: 30px;
+  }
+  .myform {
+    height:110px;
+  }
+  input {
+    height:40px;
+    border-radius: 9px;
+    padding-right: 200px;
+  }
+  input::placeholder
+  {
+    font-size: large;
+  }
+  button {
+    font-size: large;
+    color: rgb(12, 4, 75);
+    border-radius: 5px;
+   margin-left: 10px;
+  }
+  button:hover{
+    color: rgb(2, 56, 16);
+    border-radius: 15px;  
+  }
+  li:hover {
+    text-decoration:underline;
+    color: rgb(57, 2, 8);
+  }
